@@ -20,105 +20,17 @@ export default {
 </script>
 
 <style lang="scss">
-$colourText: #353f44;
-$colourHeading: #384548;
-$colourNotification: #42bfdc;
-$colourPositive: #34aa44;
-$colourNegative: #f85359;
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
 
-@mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-  -moz-border-radius: $radius;
-  border-radius: $radius;
-}
-html,
-body,
-#KmanSoftwareCoreContainer {
-  height: 100%;
+$image-path: "~@/../mdb/mdbvue/img";
+@import "~@/../mdb/mdbvue/scss/mdb-free.scss";
+
+:root {
   scroll-behavior: smooth;
-}
-
-body {
-  background-color: #f5f5f5;
-  margin: 0;
-  padding: 0;
-}
-
-body,
-p,
-li,
-input,
-select {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: $colourText;
-}
-
-a,
-a:visited {
-  text-decoration: none;
-}
-
-a:focus {
-  outline: none;
-}
-
-b,
-strong {
-  font-weight: 700;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: canada-type-gibson, sans-serif;
-  font-style: normal;
-  color: $colourHeading;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  font-weight: 400;
-}
-
-h5,
-h6 {
-  font-weight: 600;
-}
-
-input {
-  &:focus {
-    outline: none;
-  }
-}
-
-small {
-  font-size: 0.75rem;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-right {
-  text-align: right;
-}
-
-.no-margin {
-  margin: 0 !important;
-}
-
-.no-radius {
-  border-radius: 0 !important;
+  font-size: 16px;
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
 }
 </style>

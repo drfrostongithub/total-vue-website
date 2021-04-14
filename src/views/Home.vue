@@ -1,6 +1,7 @@
 <template>
-  <div class="home">
-    <h1>Hello World</h1>
+  <div id="home">
+    CSS IS COOL
+    <img src="../assets/site.jpg" alt="site" />
   </div>
 </template>
 
@@ -12,3 +13,11 @@ export default {
   components: {},
 };
 </script>
+<style lang="scss">
+#home {
+  img {
+    max-width: -webkit-fill-available;
+    opacity: 50%;
+  }
+}
+</style>
