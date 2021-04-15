@@ -36,4 +36,10 @@
     text-align: center;
   }
 }
+
+#Footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+}
 </style>

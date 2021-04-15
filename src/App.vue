@@ -40,4 +40,7 @@ p {
   margin-left: 0;
   margin-right: 0;
 }
+footer {
+  width: 100%;
+}
 </style>
