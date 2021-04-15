@@ -1,6 +1,6 @@
 <template>
   <div id="home">
-    CSS IS COOL
+    Under Maintenance
     <img src="../assets/site.jpg" alt="site" />
   </div>
 </template>

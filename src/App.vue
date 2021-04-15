@@ -33,4 +33,11 @@ $image-path: "~@/../mdb/mdbvue/img";
   --bg-primary: #23232e;
   --bg-secondary: #141418;
 }
+p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
 </style>
