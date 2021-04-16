@@ -31,5 +31,9 @@ export default {
     display: flex;
     margin: auto;
   }
+
+  .belowNav {
+    margin: 1% 0 0 0;
+  }
 }
 </style>
